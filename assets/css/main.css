@@ -1,9 +1,5 @@
 /**
-* Template Name: Logis
 * Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -1912,4 +1908,14 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+.collapse-no-arrow .accordion-button {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-right: 0;
+}
+.collapse-no-arrow .accordion-button::after {
+    display: none;
 }
