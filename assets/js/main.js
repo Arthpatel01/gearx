@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
@@ -144,6 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
         aos_init();
     });
 
-});
 
+});
 

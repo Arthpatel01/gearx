@@ -29,7 +29,15 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .custom-gradiunt {
+            background-image: linear-gradient(to top, #7191ff, #ffffff) !important;
+        }
 
+        .custom-max-height {
+            max-height: 370px!important;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,7 +56,8 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6 text-center">
                         <h2>Services</h2>
-                        <p>Elevate plant efficiency: Expert repairs for motors, rollers, pneumatics, and gear reducers.</p>
+                        <p>Elevate plant efficiency: Expert repairs for motors, rollers, pneumatics, and gear
+                            reducers.</p>
                     </div>
                 </div>
             </div>
@@ -108,8 +117,65 @@
         </div>
     </section><!-- End Featured Services Section -->
 
+
+    <section id="service" class="services pt-0 custom-gradiunt">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <span>Repair/Rebuild Services</span>
+                <h2>Repair/Rebuild Services</h2>
+
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card rounded-4 shadow">
+                        <div class="card-img p-3">
+                            <img src="assets/img/service_new1.webp" class="img-fluid rounded-2">
+                        </div>
+                        <h3><a class="stretched-link" href="#">Electric Motors</a></h3>
+                        <p>AC/DC motors, with brakes and speed reducers, rebuilds and refurbished sales.</p>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card rounded-4 shadow">
+                        <div class="card-img p-3">
+                            <img src="assets/img/service_new2.jpeg" class="img-fluid rounded-2">
+                        </div>
+                        <h3><a class="stretched-link" href="#">Gear Reducers</a></h3>
+                        <p>Rebuild all major reducer brands including Nord, Bauer, SEW, Sumitomo</p>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card rounded-4 shadow">
+                        <div class="card-img p-3">
+                            <img src="assets/img/service_new3.jpeg" class="img-fluid rounded-2">
+                        </div>
+                        <h3><a class="stretched-link" href="#">Rollers</a></h3>
+                        <p>Rebuild and new rollers for all conveyor systems in high-speed distribution centers.</p>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card rounded-4 shadow">
+                        <div class="card-img p-3">
+                            <img src="assets/img/service_new4.webp" class="img-fluid rounded-2">
+                        </div>
+                        <h3><a class="stretched-link" href="#">Pneumatics & Others</a></h3>
+                        <p>Air cylinders, thrusters to vacuum pumps repaired and rebuild to OEM spec.</p>
+                    </div>
+                </div><!-- End Card Item -->
+
+            </div>
+
+        </div>
+    </section>
+
     <!-- ======= Services Section ======= -->
-    <section id="service" class="services pt-0">
+    <!--<section id="service" class="services pt-0">
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
@@ -128,7 +194,7 @@
                         <h3><a class="stretched-link">Electric Motors</a></h3>
                         <p>AC/DC motors, with brakes and speed reducers, rebuilds and refurbished sales.</p>
                     </div>
-                </div><!-- End Card Item -->
+                </div>&lt;!&ndash; End Card Item &ndash;&gt;
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card">
@@ -138,7 +204,7 @@
                         <h3><a class="stretched-link">Gear Reducers</a></h3>
                         <p>Rebuild all major reducer brands including Nord, Bauer, SEW, Sumitomo</p>
                     </div>
-                </div><!-- End Card Item -->
+                </div>&lt;!&ndash; End Card Item &ndash;&gt;
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="card">
@@ -148,7 +214,7 @@
                         <h3><a class="stretched-link">Rollers</a></h3>
                         <p>Rebuild and new rollers for all conveyor systems in high-speed distribution centers.</p>
                     </div>
-                </div><!-- End Card Item -->
+                </div>&lt;!&ndash; End Card Item &ndash;&gt;
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="card">
@@ -158,12 +224,12 @@
                         <h3><a class="stretched-link">Pneumatics & Others</a></h3>
                         <p>Air cylinders, thrusters to vacuum pumps repaired and rebuild to OEM spec.</p>
                     </div>
-                </div><!-- End Card Item -->
+                </div>&lt;!&ndash; End Card Item &ndash;&gt;
 
             </div>
 
         </div>
-    </section>
+    </section>-->
     <!-- End Services Section -->
 
 
@@ -243,7 +309,7 @@
             <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
 
                 <div class="col-md-6">
-                    <img src="assets/img/PFMEA-1.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/QC1.jpg" class="img-fluid custom-max-height" alt="">
                 </div>
                 <div class="col-md-6">
                     <h3>PFMEA</h3>
@@ -253,15 +319,16 @@
                         measures are implemented to mitigate risks.
                     </p>
                     <p>
-                        This includes a detailed analysis of the repair process, identifying potential failure points, and
+                        This includes a detailed analysis of the repair process, identifying potential failure points,
+                        and
                         developing corrective measures to prevent these failures from occurring.
                     </p>
                 </div>
             </div><!-- Features Item -->
 
-            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+            <div class="row gy-4 align-items-center features-item border-top" data-aos="fade-up">
                 <div class="col-md-6 order-1 order-md-2">
-                    <img src="assets/img/qq2.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/QC2.jpg" class="img-fluid custom-max-height" alt="">
                 </div>
                 <div class="col-md-6 order-2 order-md-1">
                     <h3>Root -Cause Analysis</h3>
@@ -271,15 +338,15 @@
                         approval.
                     </p>
                     <p>
-                        This involves identifying the root cause of a failure, so that corrective measures can be taken to
+                        This involves identifying the root cause of a failure, so that corrective measures can be taken
+                        to
                         prevent it from happening again.
                     </p>
                 </div>
             </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+            <div class="row gy-4 align-items-center features-item border-top" data-aos="fade-up">
                 <div class="col-md-6">
-                    <img src="assets/img/qq3.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/QC3.jpg" class="img-fluid custom-max-height" alt="">
                 </div>
                 <div class="col-md-6">
                     <h3>5 Whys Warranty Analysis</h3>
@@ -287,15 +354,15 @@
                     <p>If a repair fails during our warranty period, the returned product is evaluated and corrective
                         action established.</p>
                     <p>
-                        This involves using the 5 Whys technique to identify the root cause of the failure, so that corrective
+                        This involves using the 5 Whys technique to identify the root cause of the failure, so that
+                        corrective
                         measures can be taken to prevent it from happening again.
                     </p>
                 </div>
             </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+            <div class="row gy-4 align-items-center features-item border-top" data-aos="fade-up">
                 <div class="col-md-6 order-1 order-md-2">
-                    <img src="assets/img/qq4.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/QC4.jpg" class="img-fluid custom-max-height" alt="">
                 </div>
                 <div class="col-md-6 order-2 order-md-1">
                     <h3>Product Testing to Failure</h3>
@@ -303,10 +370,6 @@
                     <p class="fst-italic">
                         We frequently test products to failure so our customers can be assured of product life
                         expectations.
-                    </p>
-                    <p>
-                        This involves subjecting products to a variety of tests to ensure that they can withstand the
-                        rigors of normal use.
                     </p>
                 </div>
             </div><!-- Features Item -->
@@ -333,14 +396,14 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-1">
                                     <i class="bi bi-question-circle question-icon"></i>
-                                    What services do you offer to businesses?
+                                    What services does your mechanical spare parts repair company provide?
                                 </button>
                             </h3>
                             <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    We provide a range of tailored services to businesses, including consulting,
-                                    marketing, and technology solutions. Our team works closely with you to understand
-                                    your needs and deliver effective strategies.
+                                    Our company specializes in repairing a wide range of mechanical spare parts used in
+                                    various industries. We offer services such as component diagnostics, refurbishment,
+                                    rebuilding, and replacement of damaged or worn-out parts.
                                 </div>
                             </div>
                         </div><!-- # Faq item-->
@@ -350,14 +413,14 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-2">
                                     <i class="bi bi-question-circle question-icon"></i>
-                                    How can I benefit from your consulting services?
+                                    How do I initiate a repair service?
                                 </button>
                             </h3>
                             <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Our consulting services are designed to enhance your business operations, streamline
-                                    processes, and identify growth opportunities. We bring our expertise to guide you
-                                    toward optimal outcomes.
+                                    Initiating a repair service is easy. You can contact us via phone or through our
+                                    website to discuss your repair needs. Our team will guide you through the process of
+                                    assessment, estimation, and scheduling.
                                 </div>
                             </div>
                         </div><!-- # Faq item-->
@@ -367,14 +430,14 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-3">
                                     <i class="bi bi-question-circle question-icon"></i>
-                                    Can you handle large-scale marketing campaigns?
+                                    How experienced are your technicians?
                                 </button>
                             </h3>
                             <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Yes, we have experience managing and executing large-scale marketing campaigns
-                                    across various platforms. We tailor our approach to suit your business goals and
-                                    target audience.
+                                    Our technicians are highly skilled and experienced professionals with years of
+                                    hands-on experience in repairing mechanical spare parts. They undergo regular
+                                    training to stay updated with the latest industry trends and repair techniques.
                                 </div>
                             </div>
                         </div><!-- # Faq item-->
@@ -384,14 +447,14 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-4">
                                     <i class="bi bi-question-circle question-icon"></i>
-                                    How do you ensure data security for technology solutions?
+                                    How do you determine repair costs
                                 </button>
                             </h3>
                             <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Data security is a top priority for us. We implement robust encryption, access
-                                    controls, and regular audits to safeguard your sensitive information and ensure
-                                    compliance with industry standards.
+                                    Repair costs are based on factors such as the extent of damage, complexity of the
+                                    repair, required replacement parts, and labor involved. Our team will provide you
+                                    with a detailed cost estimate before starting any work.
                                 </div>
                             </div>
                         </div><!-- # Faq item-->
@@ -401,17 +464,27 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq-content-5">
                                     <i class="bi bi-question-circle question-icon"></i>
-                                    How can I get started with your services?
+                                    Can you handle emergency repairs?
                                 </button>
                             </h3>
                             <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Getting started is easy. Simply reach out to our team through our contact page, and
-                                    we'll schedule a consultation to discuss your needs and create a tailored plan for
-                                    your business.
+                                    Yes, we understand the urgency of certain repairs. We offer emergency repair
+                                    services to minimize downtime and get your machinery up and running as quickly as
+                                    possible.
                                 </div>
                             </div>
                         </div><!-- # Faq item-->
+
+                        <div class="accordion-item collapse-no-arrow">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button">
+                                    <i class="bi bi-exclamation-circle question-icon"></i>
+                                    For more information<a href="contact.html" class="ms-1"> Contact Us.</a>
+                                </button>
+                            </h3>
+                        </div><!-- # Faq item-->
+
 
                     </div>
 
@@ -419,7 +492,8 @@
             </div>
 
         </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
+    <!-- End Frequently Asked Questions Section -->
 
 </main><!-- End #main -->
 
