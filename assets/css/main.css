@@ -1704,7 +1704,7 @@ section {
     width: 100%;
     min-height: 50vh;
     background-color: var(--color-secondary);
-    background-image: url("../img/bg-new13.jpg");
+    background-image: url("../img/bg-new12.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1715,7 +1715,7 @@ section {
 .hero h2 {
     margin-bottom: 20px;
     padding: 0;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
 }
@@ -1751,7 +1751,7 @@ section {
 }
 
 .hero p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -1965,8 +1965,8 @@ section {
     max-width: 670px;
 }
 
-/*
-.about .content ul li {
+
+/*.about .content ul li {
     border: solid grey 1px;
     background: #e6e6ff;
     padding: 10px;
