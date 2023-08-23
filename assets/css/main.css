@@ -286,12 +286,12 @@ section {
 
 .header.sticked {
     background: rgba(14, 29, 52, 0.9);
-    padding: 15px 0;
+    padding: 10px 0;
     box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
 
 .header .logo img {
-    max-height: 40px;
+    max-height: 50px;
     margin-right: 6px;
 }
 
@@ -1192,7 +1192,7 @@ section {
     position: relative;
 }
 
-.stats-counter .stats-item span:after {
+.stats-counter .stats-item .counter-span:after {
     content: "";
     position: absolute;
     display: block;
@@ -1704,7 +1704,7 @@ section {
     width: 100%;
     min-height: 50vh;
     background-color: var(--color-secondary);
-    background-image: url("../img/hero-bg.png");
+    background-image: url("../img/bg-new13.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1720,9 +1720,33 @@ section {
     color: #fff;
 }
 
+.cover-content-col {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+}
+
 @media (max-width: 575px) {
     .hero h2 {
         font-size: 30px;
+    }
+
+    .hero {
+        width: 100%;
+        min-height: 50vh;
+        background-color: var(--color-secondary);
+        background-image: url("../img/bg-mobile3.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 120px 0 60px 0;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .cover-content-col {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        border-radius: 20px;
     }
 }
 
@@ -1778,7 +1802,7 @@ section {
     position: relative;
 }
 
-.hero .stats-item span:after {
+.hero .stats-item .counter-span:after {
     content: "";
     position: absolute;
     display: block;
@@ -1926,6 +1950,20 @@ section {
 }
 
 
+@media (min-width: 991px) {
+    .about-side-img {
+        margin-top: 10%;
+    }
+}
+
+.mmsdc-img-footer {
+    height: 60px;
+    width: auto;
+}
+
+.index-main-slog {
+    max-width: 670px;
+}
 
 /*
 .about .content ul li {
