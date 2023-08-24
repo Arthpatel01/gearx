@@ -12,7 +12,7 @@ function loadContent(url, placeholderId) {
     xhr.send();
 }
 
-loadContent("nav.html", "nav-placeholder")
+/*loadContent("nav.html", "nav-placeholder")*/
 loadContent("footer.html", "footer-placeholder")
 
 function processAfterLoadContent() {
