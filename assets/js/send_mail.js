@@ -29,7 +29,6 @@ $('.contact-form-submit-btn').on('click', function (event) {
             'message': message,
             'apikey': __key,
         }
-        var endpoint = "https://api.web3forms.com/submit";
         $.ajax({
             headers: {
                 "Content-Type": "application/json",
@@ -95,7 +94,6 @@ $('.get-quote-btn').on('click', function (event) {
             'Dimensions': dimensions,
             'apikey': __key
         }
-        /*var endpoint = "https://formspree.io/f/xjvqwakv";*/
         $.ajax({
             headers: {
                 "Content-Type": "application/json",
