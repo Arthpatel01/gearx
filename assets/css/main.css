@@ -281,7 +281,8 @@ section {
 .header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 30px 0;
+    padding: 20px 0;
+    background: rgba(14, 29, 52, 0.5);
 }
 
 .header.sticked {
@@ -804,7 +805,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/7xm221252.jpg") center center;
     background-size: cover;
     padding: 100px 0;
 }
@@ -1704,7 +1705,7 @@ section {
     width: 100%;
     min-height: 50vh;
     background-color: var(--color-secondary);
-    background-image: url("../img/bg-new12.jpg");
+    background-image: url("../img/bg-new12-v2.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
