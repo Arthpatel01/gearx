@@ -278,23 +278,23 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-/*.header {
+.header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 20px 0;
-    background: rgba(14, 29, 52, 0.5);
-}*/
-
-/*.header.sticked {
+    padding: 15px 0;
     background: rgba(14, 29, 52, 0.9);
-    padding: 10px 0;
-    box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
-}*/
-.header {
+}
+
+.header.sticked {
     background: rgba(14, 29, 52, 0.9);
     padding: 10px 0;
     box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
+/*.header {
+    background: rgba(14, 29, 52, 0.9);
+    padding: 10px 0;
+    box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+}*/
 
 .header .logo img {
     max-height: 50px;
@@ -1969,6 +1969,7 @@ section {
 
 .index-main-slog {
     max-width: 670px;
+    color: #d9d5d5 !important;
 }
 
 
